@@ -15,7 +15,7 @@ app.use(express.static('uploads'));
 
 // Middleware
 const corsOptions = {
-  origin: 'http://localhost:5173', // Replace with your frontend URL
+  origin: 'https://arula-backend.onrender.com', // Replace with your frontend URL
 };
 
 app.use(cors(corsOptions));
