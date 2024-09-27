@@ -15,7 +15,7 @@ app.use(express.static('uploads'));
 
 // Middleware
 const corsOptions = {
-  origin: 'https://arula-backend.onrender.com', // Replace with your frontend URL
+  origin: 'https://arula-task-react.netlify.app', // Replace with your frontend URL
 };
 
 app.use(cors(corsOptions));
